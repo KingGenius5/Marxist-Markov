@@ -62,4 +62,4 @@ def word_frequency(histogram, word):
         if word == histogram[i][0]:
             return histogram[i][1]
         
-hist = list_of_tuples_histogram('poetry_snippet.txt')
+hist = list_of_tuples_histogram('small-text.txt')
